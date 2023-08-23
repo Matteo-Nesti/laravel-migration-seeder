@@ -15,6 +15,10 @@
 
 <body>
 
+    <header>
+        <h1>Ticket Train</h1>
+    </header>
+
     @yield('main')
 
 </body>
