@@ -16,10 +16,12 @@
 <body>
 
     <header>
-        <h1>Ticket Train</h1>
+        <h1 class="text-center">Ticket Train</h1>
     </header>
 
-    @yield('main')
+    <main class="container">
+        @yield('main')
+    </main>
 
 </body>
 

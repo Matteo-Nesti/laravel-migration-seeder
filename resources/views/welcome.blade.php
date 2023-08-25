@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('main')
-    <ul>
+    <ul class="list-unstyled">
         @foreach ($trains as $train)
             <li>
                 {{ $train->agency_name }}
@@ -31,7 +31,7 @@
                     il treno e` in orario
                 @endif
             </li>
-            <li>
+            <li class="mb-4">
                 @if (!$train->cancelled)
                     il treno e` in transito
                 @else
